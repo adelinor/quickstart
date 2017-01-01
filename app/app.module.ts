@@ -6,6 +6,7 @@ import { CustomComponent }  from './custom.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
+  exports:      [ CustomComponent ],
   declarations: [ AppComponent, CustomComponent ],
   bootstrap:    [ AppComponent ]
 })
