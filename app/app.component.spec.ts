@@ -1,4 +1,5 @@
 import { AppComponent } from './app.component';
+import { CustomComponent } from './custom.component';
 
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By }           from '@angular/platform-browser';
@@ -11,7 +12,7 @@ describe('AppComponent', function () {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppComponent ]
+      declarations: [ CustomComponent, AppComponent ]
     })
     .compileComponents();
   }));
